@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export default axios.create({
-  baseURL: "http://devmiricylserver.azurewebsites.net/api",
+  baseURL: "http://localhost:3000/api",
 });
